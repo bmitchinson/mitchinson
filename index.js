@@ -3,26 +3,20 @@
 const boxen = require("boxen");
 const chalk = require("chalk");
 
-const me = {
-  firstName: "Vu",
-  lastName: "Tran",
-  twitter: "https://twitter.com/tranvu",
-  github: "https://github.com/vutran",
-  email: "vu@vu-tran.com"
-};
-
 const card = boxen(
-  `${chalk.bold("Vu Tran")}
+  `${chalk.bold("Ben Mitchinson")}
+Denver, CO 🏔
 ${chalk.bold("-".repeat(40))}
 
-${chalk.bold("Work:")} Dropbox
-${chalk.bold("Twitter:")} https://twitter.com/tranvu
-${chalk.bold("GitHub:")} https://github.com/vutran
-${chalk.bold("LinkedIn:")} https://linkedin.com/in/trandev
-${chalk.bold("Web:")} https://tran.vu
+${chalk.bold("Work:")}    Accenture (Remote)
+${chalk.bold("Web:")}     https://mitchinson.dev
+${chalk.bold("GitHub:")}  https://github.com/bmitchinson
+${chalk.bold("Twitter:")} https://twitter.com/115bwm
+${chalk.bold("Spotify:")} https://open.spotify.com/user/115bwm
+${chalk.bold("Music:")}   https://tinyurl.com/3colorchal
 
-${chalk.bold("Card:")} npx vutran`,
-  { borderColor: "yellow", padding: 1 }
+${chalk.bold("Card:")} npx mitchinson`,
+  { borderColor: "blue", padding: 1 }
 );
 
 console.log(card);
