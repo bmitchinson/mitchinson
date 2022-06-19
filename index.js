@@ -14,6 +14,7 @@ ${chalk.bold("GitHub:")}  https://github.com/bmitchinson
 ${chalk.bold("Twitter:")} https://twitter.com/115bwm
 ${chalk.bold("Spotify:")} https://open.spotify.com/user/115bwm
 ${chalk.bold("Music:")}   https://tinyurl.com/3colorchal
+${chalk.bold("Phone:")}   (630)-740-4172
 
 ${chalk.bold("Card:")} npx mitchinson`,
   { borderColor: "blue", padding: 1 }

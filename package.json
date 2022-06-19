@@ -1,6 +1,6 @@
 {
   "name": "mitchinson",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "My personal business card",
   "main": "index.js",
   "author": "Ben <mitchinson.dev@gmail.com>",
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/bmitchinson/mitchinson"
+  },
+  "scripts": {
+    "start": "node index.js"
   },
   "dependencies": {
     "boxen": "^2.1.0",
