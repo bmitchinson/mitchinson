@@ -12,8 +12,9 @@
   },
   "dependencies": {
     "boxen": "^2.1.0",
-    "chalk": "^2.4.1",
-    "lint-staged": "^8.1.0",
+    "chalk": "^2.4.1"
+  },
+  "devDependencies": {
     "prettier": "^1.15.3"
   }
 }
